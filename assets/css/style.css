@@ -1,0 +1,109 @@
+#dropdown-menu {
+    background-color: #6a3874;
+    color: white;
+}
+
+.container edit{
+    position: absolute;
+    left: 400px;
+}
+
+.card {
+    width: 400px;
+
+}
+
+.card-body {
+    width: 400px;
+    
+}
+
+
+#logo {
+ width: 280px;
+height: 115px;
+background-image: url("../images/logo.png");
+background-size:cover;
+background-repeat: no-repeat;
+position: relative;
+top: 0px;
+}
+
+body {
+
+    background-size: cover;
+
+    
+ }
+
+ .navbar1 {
+     background-color:#180316;
+     color: white;
+ }
+
+ .navbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1400px;
+    height: 100px;
+    
+
+ }
+
+ .jumbotron {
+    background-image: url("../images/tunnel.gif");
+    background-position: 0% 75%;
+    background-size: cover;
+ }
+ #sidebar-wrapper {
+    z-index: 1;
+    position: absolute;
+    width:0;
+    height:100%;
+    overflow-y: hidden;
+    background: #6a3874;
+    /* border: 2px solid red; */
+    opacity: 0.9;
+ }
+ label {
+    color: white;
+ }
+ #page-content-wrapper {
+    widows: 100%;
+    position: absolute;
+    padding: 15px;
+    /* border: 5px solid green; */
+ }
+ 
+ #wrapper.menuDisplayed #sidebar-wrapper{
+    width:250px;
+ }
+ 
+ #wrapper.menuDisplayed #page-content-wrapper{
+    padding-left: 250px;
+ }
+ 
+ .sidebar-nav {
+    padding: 0;
+    list-style: none;
+ }
+ .edit {
+    height: 100%;
+ }
+ .sidebar-nav li{
+    text-indent:20px;
+    line-height:40px;
+ }
+ .sidebar-nav li .form-group{
+    display: block;
+    text-decoration: none;
+    color: #ddd;
+ }
+ .sidebar-nav li .form-group:hover{
+    background: #180316;
+ }
+ #menu-toggle{
+border :2px solid white;
+color: #180316;
+ }
