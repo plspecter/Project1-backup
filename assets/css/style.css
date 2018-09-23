@@ -1,3 +1,66 @@
+h1 {
+    color: #002763;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.andrew {
+    position: absolute;
+    float: left;
+    left: 200px;
+}
+
+.ferew {
+    position: absolute;
+    float: left;
+    left: 120px;
+    
+}
+
+.perri {
+    position: absolute;
+    float: left;
+    top: -1px;
+    left: 20px;
+     
+}
+
+.junwah  {
+   position: relative;
+   float: left;
+   top: 0;
+   left: 20px;
+     
+}
+
+.About {
+    position: absolute;
+    right: 30px;
+    top: 140px;
+}
+
+.rectangle {
+    background-color: #666666;
+    position: fixed;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.navbar {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    ; 
+ }
+
+
+
 #p2 {
     color: white;
     position: absolute;
@@ -37,10 +100,6 @@
 
 }
 
-.card-body {
-    /* width: 400px; */
-    
-}
 
 
 #logo {
@@ -49,8 +108,14 @@ height: 115px;
 background-image: url("../images/logo.png");
 background-size:cover;
 background-repeat: no-repeat;
-position: relative;
-top: 0px;
+position: absolute;
+top:38px;
+
+}
+.perri {
+    position: absolute;
+    left: 0px;
+    bottom: 75%;
 }
 
 body {
@@ -67,16 +132,6 @@ body {
      right: 100px;
      font-size: 20px;
      /* opacity: 0; */
- }
-
- .navbar {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 1400px;
-    height: 70px;
-    
-
  }
 
  .jumbotron {
@@ -106,6 +161,7 @@ body {
  
  #wrapper.menuDisplayed #sidebar-wrapper{
     width:350px;
+    max-height: 800px;
  }
  
  #wrapper.menuDisplayed #page-content-wrapper{
