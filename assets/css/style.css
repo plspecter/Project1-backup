@@ -1,194 +1,230 @@
-h1 {
-    color: #002763;
+#aboutUsTitle {
+    color: white;
     text-align: center;
-    position: relative;
-    top: 40px;
-}
-
-.andrew {
-    position: absolute;
-    float: left;
-    left: 200px;
-}
-
-.ferew {
-    position: absolute;
-    float: left;
-    left: 120px;
+    top: 17px;
     
-}
-
-.perri {
-    position: absolute;
-    float: left;
-    top: -1px;
-    left: 20px;
-     
-}
-
-.junwah  {
-   position: relative;
-   float: left;
-   top: 0;
-   left: 20px;
-     
-}
-
-.About {
-    position: absolute;
-    right: 30px;
-    top: 140px;
-}
-
-.rectangle {
-    background-color: #666666;
-    position: fixed;
-    height: 50px;
-    margin: 0;
-    padding: 0;
-    bottom: 0;
-    overflow: hidden;
-    width: 100%;
-}
-
-.navbar {
-    position: fixed;
-    bottom: 0;
-    overflow: hidden;
-    width: 100%;
-    ; 
- }
-
-
-
-#p2 {
-    color: white;
-    position: absolute;
-    left: 200px;
-    bottom: 8px;
-}
-
-#p1 {
-    color: white;
-    position: absolute;
-    left: 40px;
-    bottom: 8px;
-}
-
-.navbar.transparent.navbar-inverse .navbar-inner {
-    border-width: 0px;
-    -webkit-box-shadow: 0px 0px;
-    box-shadow: 0px 0px;
-    background-color: rgba(0,0,0,0.0);
-    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-}
-
-#dropdown-menu {
-    background-color:  #002763;
-    color: white;
-    background:transparent;
-}
-
-.container edit{
-    position: absolute;
-    left: 400px;
-}
-
-.card {
-    width: 400px;
-
-}
-
-
-
-#logo {
- width: 282px;
-height: 115px;
-background-image: url("../images/logo.png");
-background-size:cover;
-background-repeat: no-repeat;
-position: absolute;
-top:38px;
-
-}
-.perri {
-    position: absolute;
-    left: 0px;
-    bottom: 75%;
-}
-
-body {
-
-    background-size: cover;
-
+    }
     
- }
-
- .navbar1 {
-     color: white;
-     position: absolute;
-     top: 0;
-     right: 100px;
-     font-size: 20px;
-     /* opacity: 0; */
- }
-
- .jumbotron {
-    background-image: url("../images/plane.gif");
-    background-position: 0% 10%;
-    background-size: cover;
- }
- #sidebar-wrapper {
-    z-index: 1;
+    #aboutUs {
+        background-color: #002763;
+        position: bottom;
+        width: 100%;
+        height: 410px;
+    
+    }
+    
+    #whiteBG {
+        position: absolute;
+        left: 0px;
+        background-color: white;
+        height: 289px;
+        width: 152px;
+    }
+    
+    .getstarted {
+        position: absolute;
+        float: left;
+        left: 510px;
+        width: 250px;
+    }
+    
+    #welcome {
+        text-align: center;
+        left: auto;
+        right: auto;
+    }
+    
+    h1 {
+        color: #002763;
+        text-align: center;
+        position: relative;
+        top: 40px;
+    }
+    
+    .andrew {
+        position: absolute;
+        float: left;
+        left: 200px;
+    }
+    
+    .ferew {
+        position: absolute;
+        float: left;
+        left: 120px;
+        
+    }
+    
+    .perri {
+        position: absolute;
+        float: left;
+        top: -1px;
+        left: 20px;
+         
+    }
+    
+    .junwah  {
+       position: relative;
+       float: left;
+       top: 0;
+       left: 20px;
+         
+    }
+    
+    .About {
+        position: absolute;
+        right: 30px;
+        top: 140px;
+    }
+    
+    .rectangle {
+        background-color: #666666;
+        position: fixed;
+        height: 50px;
+        margin: 0;
+        padding: 0;
+        bottom: 0;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .navbar {
+        position: fixed;
+        bottom: 0;
+        overflow: hidden;
+        width: 100%;
+        ; 
+     }
+    
+    
+    
+    #p2 {
+        color: white;
+        position: absolute;
+        left: 200px;
+        bottom: 8px;
+    }
+    
+    #p1 {
+        color: white;
+        position: absolute;
+        left: 40px;
+        bottom: 8px;
+    }
+    
+    .navbar.transparent.navbar-inverse .navbar-inner {
+        border-width: 0px;
+        -webkit-box-shadow: 0px 0px;
+        box-shadow: 0px 0px;
+        background-color: rgba(0,0,0,0.0);
+        background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+        background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    }
+    
+    #dropdown-menu {
+        background-color:  #002763;
+        color: white;
+        background:transparent;
+    }
+    
+    .container edit{
+        position: absolute;
+        left: 400px;
+    }
+    
+    .card {
+        width: 400px;
+    
+    }
+    
+    
+    
+    #logo {
+     width: 282px;
+    height: 115px;
+    background-image: url("../images/logo.png");
+    background-size:cover;
+    background-repeat: no-repeat;
     position: absolute;
-    width:0;
-    height:100%;
-    overflow-y: hidden;
-    background: #003d99;
-    /* border: 2px solid red; */
-    opacity: 0.9;
- }
- label {
-    color: white;
- }
- #page-content-wrapper {
-    widows: 100%;
-    position: absolute;
-    padding: 15px;
-    /* border: 5px solid green; */
- }
- 
- #wrapper.menuDisplayed #sidebar-wrapper{
-    width:350px;
-    max-height: 800px;
- }
- 
- #wrapper.menuDisplayed #page-content-wrapper{
-    padding-left: 250px;
- }
- 
- .sidebar-nav {
-    padding: 0;
-    list-style: none;
- }
- .edit {
-    height: 100%;
- }
- .sidebar-nav li{
-    text-indent:20px;
-    line-height:40px;
- }
- .sidebar-nav li .form-group{
-    display: block;
-    text-decoration: none;
-    color: #ddd;
-    /* width: 250px; */
- }
- .sidebar-nav li .form-group:hover{
-    background: #2e6ece;
- }
- #menu-toggle{
-border :2px solid white;
-color:  #2e6ece;
- }
+    top:38px;
+    
+    }
+    .perri {
+        position: absolute;
+        left: 0px;
+        bottom: 75%;
+    }
+    
+    body {
+    
+        background-size: cover;
+    
+        
+     }
+    
+     .navbar1 {
+         color: white;
+         position: absolute;
+         top: 0;
+         right: 100px;
+         font-size: 20px;
+         /* opacity: 0; */
+     }
+    
+     .jumbotron {
+        background-image: url("../images/plane.gif");
+        background-position: 0% 10%;
+        background-size: cover;
+     }
+     #sidebar-wrapper {
+        z-index: 1;
+        position: absolute;
+        width:0;
+        height:100%;
+        overflow-y: hidden;
+        background: #003d99;
+        /* border: 2px solid red; */
+        opacity: 0.9;
+     }
+     label {
+        color: white;
+     }
+     #page-content-wrapper {
+        widows: 100%;
+        position: absolute;
+        padding: 15px;
+        /* border: 5px solid green; */
+     }
+     
+     #wrapper.menuDisplayed #sidebar-wrapper{
+        width:350px;
+        max-height: 800px;
+     }
+     
+     #wrapper.menuDisplayed #page-content-wrapper{
+        padding-left: 250px;
+     }
+     
+     .sidebar-nav {
+        padding: 0;
+        list-style: none;
+     }
+     .edit {
+        height: 100%;
+     }
+     .sidebar-nav li{
+        text-indent:20px;
+        line-height:40px;
+     }
+     .sidebar-nav li .form-group{
+        display: block;
+        text-decoration: none;
+        color: #ddd;
+        /* width: 250px; */
+     }
+     .sidebar-nav li .form-group:hover{
+        background: #2e6ece;
+     }
+     #menu-toggle{
+    border :2px solid white;
+    color:  #2e6ece;
+     }
